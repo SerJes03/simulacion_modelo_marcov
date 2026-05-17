@@ -53,3 +53,14 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
 ```bash
 pip install numpy pandas matplotlib
+
+2. Abrir Jupyter Notebook
+jupyter notebook
+
+3. Ejecutar el archivo
+Abrir el notebook:
+Simulacion_Markov.ipynb
+
+👩‍💻 Autor
+
+Jessica Serna Vargas
