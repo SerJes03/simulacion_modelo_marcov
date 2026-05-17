@@ -60,7 +60,7 @@ Gráficas de evolución del sistema y temperatura.
 
 Comparación entre estados ocultos y observados.
 
-
+---
 👤 Autor
 
 Jessica Serna Vargas
