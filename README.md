@@ -45,13 +45,19 @@ simulacionmarcov.ipynb en Google Colab o Jupyter Notebook
 
 ## 📁 Archivos del proyecto
 simulacionmarcov.ipynb: Código principal del modelo oculto de Markov.
+
 README.md: Documentación del proyecto.
+
 requirements.txt: Listado de librerías necesarias.
 
+
+
 ## 📊 Evidencias de resultados
-Secuencia de estados inferidos
-Gráficas de evolución del sistema
-Comparación entre estados ocultos y observados
+Secuencia de estados inferidos (Algoritmo de Viterbi).
+
+Gráficas de evolución del sistema y temperatura.
+
+Comparación entre estados ocultos y observados.
 
 
 👤 Autor
