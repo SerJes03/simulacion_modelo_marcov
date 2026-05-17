@@ -52,15 +52,6 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
 ---
 
-## 📁 Archivos necesarios
-
-- `Simulacion_Markov.ipynb`: Código principal de la simulación  
-- `README.md`: Documentación del proyecto  
-- Librerías instaladas con:
-```bash
-pip install numpy pandas matplotlib
-
-
 ## 📊Evidencias de resultados
 
 El notebook genera los siguientes resultados:
@@ -69,6 +60,14 @@ Matriz de transición utilizada
 Probabilidades de transición entre estados
 Gráficas del comportamiento del sistema
 Análisis del estado estacionario
+
 ---
-## 👩‍💻 Autor
-Jessica Serna Vargas
+
+## 📁 Archivos necesarios
+
+- `Simulacion_Markov.ipynb`: Código principal de la simulación  
+- `README.md`: Documentación del proyecto  
+- Librerías instaladas con:
+```bash
+pip install numpy pandas matplotlib
+
