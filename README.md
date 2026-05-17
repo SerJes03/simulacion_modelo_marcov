@@ -1,26 +1,55 @@
-# Modelo Oculto de Markov (HMM) - Diagnóstico Médico
+# 🔄 Simulación de Cadenas de Markov
 
-[cite_start]Este repositorio contiene la implementación de un Modelo Oculto de Markov diseñado para inferir el estado de salud de un paciente (Saludable, Resfriado, Gripe) a partir de observaciones de temperatura corporal. [cite: 15, 26, 31]
+## 📌 Descripción
+Este proyecto implementa una simulación de **Cadenas de Markov**, con el objetivo de modelar sistemas estocásticos donde el estado futuro depende únicamente del estado actual (propiedad de Markov).
 
-## 📋 Contenido
-- [cite_start]**Código Fuente:** Implementación en Python con interfaz interactiva. [cite: 53, 57]
-- [cite_start]**Documentación:** Informe detallado del modelo y matrices. 
-- [cite_start]**Evidencias:** Gráficas de Viterbi y tablas de convergencia. [cite: 96, 102]
+A través de simulaciones, se analizan transiciones entre estados y su comportamiento a lo largo del tiempo.
 
-## 🚀 Instrucciones de Ejecución
-1. **Opción Google Colab (Recomendada):** - Sube el archivo `.ipynb` a Colab.
-   - Ejecuta todas las celdas (`Ctrl + F9`).
-   - [cite_start]Usa los sliders para ajustar los días y presiona "Ejecutar Simulación". [cite: 94, 95]
-2. **Ejecución Local:**
-   - [cite_start]Instala las dependencias: `pip install numpy pandas matplotlib ipywidgets`. [cite: 54, 55, 56]
-   - Ejecuta el script: `python src/nombre_del_archivo.py`.
+---
 
-## 📊 Modelo Matemático
-- [cite_start]**Estados Ocultos:** Saludable, Resfriado, Gripe. [cite: 25]
-- [cite_start]**Observaciones:** Temperatura Normal, Fiebre Leve, Fiebre Alta. [cite: 30]
-- [cite_start]**Algoritmo de Viterbi:** Utilizado para la inferencia de estados con alta precisión diagnóstica. [cite: 67, 88]
+## 🎯 Objetivo
+Aplicar el modelo de Cadenas de Markov para:
 
-## 📈 Resultados y Evidencias
-El modelo demuestra estabilidad estadística mediante un análisis de convergencia. [cite_start]Se determinó que a partir de las **57 simulaciones**, el error respecto a la distribución estacionaria teórica cae por debajo del 0.5%. [cite: 92, 104]
+- Simular transiciones entre estados definidos
+- Analizar probabilidades de transición
+- Observar el comportamiento del sistema en el tiempo
+- Identificar estados más frecuentes o estables (estado estacionario)
 
-![Gráfica de Convergencia](results/grafica_convergencia.png)
+---
+
+## 🧠 Modelo utilizado
+El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
+
+- Existe un conjunto de estados posibles
+- Se define una **matriz de transición**
+- El siguiente estado depende únicamente del estado actual
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Python 🐍  
+- Jupyter Notebook 📓 :contentReference[oaicite:1]{index=1}  
+- Librerías:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `random`
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+### Opción 1: Google Colab
+:contentReference[oaicite:2]{index=2}  
+- Abrir el notebook en Colab  
+- Ejecutar todas las celdas en orden  
+- No requiere instalación adicional  
+
+---
+
+### Opción 2: Ejecución local
+
+1. Instalar dependencias:
+```bash
+pip install numpy pandas matplotlib
