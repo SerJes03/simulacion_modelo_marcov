@@ -60,9 +60,8 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 ```bash
 pip install numpy pandas matplotlib
 
----
 
-📊Evidencias de resultados
+## 📊Evidencias de resultados
 
 El notebook genera los siguientes resultados:
 Secuencia de estados simulados
