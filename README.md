@@ -45,22 +45,30 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 - Ejecutar todas las celdas en orden  
 - No requiere instalación adicional  
 
+### Opción 2: Local
+- Instalar Jupyter Notebook  
+- Abrir el archivo: `Simulacion_Markov.ipynb`  
+- Ejecutar las celdas  
+
 ---
 
-### Opción 2: Ejecución local
+## 📊 Resultados esperados
 
-#### 1. Instalar dependencias
+El notebook permite visualizar:
 
-```bash
-pip install numpy pandas matplotlib
+- Secuencia de estados simulados  
+- Probabilidades de transición  
+- Evolución del sistema en el tiempo  
+- Comportamiento del modelo  
 
-2. Abrir Jupyter Notebook
-jupyter notebook
+---
 
-3. Ejecutar el archivo
-Abrir el notebook:
-Simulacion_Markov.ipynb
+## 📁 Estructura del proyecto
 
-👩‍💻 Autor
+- `Simulacion_Markov.ipynb`: Código principal de la simulación  
+- `README.md`: Documentación del proyecto  
 
+---
+
+## 👩‍💻 Autor
 Jessica Serna Vargas
