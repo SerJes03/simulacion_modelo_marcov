@@ -20,16 +20,16 @@ Aplicar el modelo de Cadenas de Markov para:
 ## 🧠 Modelo utilizado
 El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
-- Existe un conjunto de estados posibles
-- Se define una **matriz de transición**
-- El siguiente estado depende únicamente del estado actual
+- Existe un conjunto de estados posibles  
+- Se define una **matriz de transición**  
+- El siguiente estado depende únicamente del estado actual  
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- Python 🐍  
-- Jupyter Notebook 📓 :contentReference[oaicite:1]{index=1}  
+- Python  
+- Jupyter Notebook  
 - Librerías:
   - `numpy`
   - `pandas`
@@ -40,19 +40,16 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
 ## ▶️ Cómo ejecutar el proyecto
 
-### Opción 1: Google Colab  
-- Abrir el notebook en Colab  
+### Opción 1: Google Colab
+- Abrir el notebook en Google Colab  
 - Ejecutar todas las celdas en orden  
-- No requiere instalación adicional
--  
+- No requiere instalación adicional  
+
+---
 
 ### Opción 2: Ejecución local
 
-1. Instalar dependencias:
+#### 1. Instalar dependencias
+
 ```bash
 pip install numpy pandas matplotlib
-
-
-
-👩‍💻 Autor
-Jessica Serna Vargas
