@@ -28,30 +28,33 @@ Este proyecto utiliza:
 
 ---
 
-## 🚀 Cómo ejecutar
+## 🚀 Instrucciones de Ejecución
 
-1. Instalar dependencias:
-```bash
-pip install numpy pandas matplotlib
+1. **Instalar dependencias:**
+   ```bash
+   pip install numpy pandas matplotlib
+
 
 2. Abrir el notebook:
 simulacionmarcov.ipynb en Google Colab o Jupyter Notebook
 
+
 3. Ejecutar todas las celdas
 
----
+
 
 ## 📁 Archivos del proyecto
-simulacionmarcov.ipynb: código principal del modelo
-README.md: documentación del proyecto
+simulacionmarcov.ipynb: Código principal del modelo oculto de Markov.
+README.md: Documentación del proyecto.
+requirements.txt: Listado de librerías necesarias.
 
----
 ## 📊 Evidencias de resultados
 Secuencia de estados inferidos
 Gráficas de evolución del sistema
 Comparación entre estados ocultos y observados
 
----
+
 👤 Autor
 
 Jessica Serna Vargas
+IU Digital de Antioquia
