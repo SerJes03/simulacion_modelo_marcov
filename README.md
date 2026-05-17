@@ -40,16 +40,19 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
 ## ▶️ Cómo ejecutar el proyecto
 
-### Opción 1: Google Colab
-:contentReference[oaicite:2]{index=2}  
+### Opción 1: Google Colab  
 - Abrir el notebook en Colab  
 - Ejecutar todas las celdas en orden  
-- No requiere instalación adicional  
-
----
+- No requiere instalación adicional
+-  
 
 ### Opción 2: Ejecución local
 
 1. Instalar dependencias:
 ```bash
 pip install numpy pandas matplotlib
+
+
+
+👩‍💻 Autor
+Jessica Serna Vargas
