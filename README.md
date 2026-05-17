@@ -34,11 +34,10 @@ Este proyecto utiliza:
    ```bash
    pip install numpy pandas matplotlib
 
-
-2. Abrir el notebook:
+2. **Abrir el notebook:**
 Cargar el archivo simulacionmarcov.ipynb en Google Colab o Jupyter.
 
-3. Ejecutar todas las celdas:
+3. **Ejecutar todas las celdas:**
 
 
 ---
@@ -61,7 +60,7 @@ Gráficas de evolución del sistema y temperatura.
 Comparación entre estados ocultos y observados.
 
 ---
-👤 Autor
+👤 **Autor**
 
 Jessica Serna Vargas
 IU Digital de Antioquia
