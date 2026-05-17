@@ -37,7 +37,7 @@ Este proyecto utiliza:
 2. **Abrir el notebook:**
 Cargar el archivo simulacionmarcov.ipynb en Google Colab o Jupyter.
 
-3. **Ejecutar todas las celdas:**
+3. **Ejecutar todas las celdas**
 
 
 ---
