@@ -36,12 +36,12 @@ Este proyecto utiliza:
 
 
 2. Abrir el notebook:
-simulacionmarcov.ipynb en Google Colab o Jupyter Notebook
+Cargar el archivo simulacionmarcov.ipynb en Google Colab o Jupyter.
+
+3. Ejecutar todas las celdas:
 
 
-3. Ejecutar todas las celdas
-
-
+---
 
 ## 📁 Archivos del proyecto
 simulacionmarcov.ipynb: Código principal del modelo oculto de Markov.
@@ -50,6 +50,7 @@ README.md: Documentación del proyecto.
 
 requirements.txt: Listado de librerías necesarias.
 
+---
 
 
 ## 📊 Evidencias de resultados
