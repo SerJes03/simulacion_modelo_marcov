@@ -10,10 +10,10 @@ A través de simulaciones, se analizan transiciones entre estados y su comportam
 ## 🎯 Objetivo
 Aplicar el modelo de Cadenas de Markov para:
 
-- Simular transiciones entre estados definidos
-- Analizar probabilidades de transición
-- Observar el comportamiento del sistema en el tiempo
-- Identificar estados más frecuentes o estables (estado estacionario)
+- Simular transiciones entre estados definidos  
+- Analizar probabilidades de transición  
+- Observar el comportamiento del sistema en el tiempo  
+- Identificar estados más frecuentes o estables (estado estacionario)  
 
 ---
 
@@ -52,23 +52,24 @@ El proyecto se basa en el modelo de **Cadenas de Markov**, donde:
 
 ---
 
-## 📊 Resultados esperados
-
-El notebook permite visualizar:
-
-- Secuencia de estados simulados  
-- Probabilidades de transición  
-- Evolución del sistema en el tiempo  
-- Comportamiento del modelo  
-
----
-
-## 📁 Estructura del proyecto
+## 📁 Archivos necesarios
 
 - `Simulacion_Markov.ipynb`: Código principal de la simulación  
 - `README.md`: Documentación del proyecto  
+- Librerías instaladas con:
+```bash
+pip install numpy pandas matplotlib
 
 ---
 
+📊Evidencias de resultados
+
+El notebook genera los siguientes resultados:
+Secuencia de estados simulados
+Matriz de transición utilizada
+Probabilidades de transición entre estados
+Gráficas del comportamiento del sistema
+Análisis del estado estacionario
+---
 ## 👩‍💻 Autor
 Jessica Serna Vargas
